@@ -1,0 +1,10 @@
+.todo-item {
+  /* display: grid;
+  grid-template-columns: 9fr 1fr 1fr;
+  margin-bottom: 10px; */
+  /* text-decoration: none; */
+  /* text-decoration: "line-through"; */
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-column-gap: 5px;
+}

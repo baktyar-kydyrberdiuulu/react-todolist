@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRcBFvwWwx5kb2YQ3-hgYq_LuBMzL_mcm6Ww&usqp=CAU");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: ‘Josefin Sans’, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1 {
+  font-family: ‘Kaushan Script’, cursive;
+  font-size: 45px;
+  color: #2e8b57;
+  text-shadow: 1px 1px 3px #fff;
+}
+.textIn {
+  height: 2em;
+  text-align: center;
+  font-family: ‘Josefin Sans’, sans-serif;
+}
+.mainBlock {
+  width: 800px;
+  background: #b9d6ad;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  margin-bottom: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.mainBlock div {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-column-gap: 5px;
+}
+.todo-item {
+  /* display: grid;
+  grid-template-columns: 9fr 1fr 1fr;
+  margin-bottom: 10px; */
+  /* text-decoration: none; */
+  text-decoration: "line-through";
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-column-gap: 5px;
+}
